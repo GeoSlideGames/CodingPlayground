@@ -1,0 +1,8 @@
+I want you make it so i can do different type of questions.
+i want you to add Pythagoreans theorem (S^2=H^2+L^2)
+BUT IN DIFRENT FILES
+so normal operators in one file, Pythagoreans theorem, and another file for running
+
+i want to be able to chose different types of questions after i do one
+
+and as a BIG challenge i want you to do stuff with trigonometry
