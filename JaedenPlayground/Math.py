@@ -4,7 +4,8 @@ from SourcedBasic import calculator
 
 
 def Choice():
-    print('Or Type 1 For a Basic Calculator')
+    print()
+    print('Type 1 For a Basic Calculator')
     print('Type 2 to Calculate for Pithagoras')
     #print('And 3 If you want to Calculate for Tan')
     
