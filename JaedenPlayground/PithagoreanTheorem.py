@@ -14,3 +14,6 @@ def Pith():
         S = float(input('Give Slant Hight:'))
         L = float(input('Give Lenght:'))
         print(math.sqrt(S*S-L*L),'=H')
+
+print('hello')
+print('hello again')
