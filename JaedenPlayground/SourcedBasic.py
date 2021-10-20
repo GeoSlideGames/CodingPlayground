@@ -25,6 +25,4 @@ def calculator():
         
     elif C == 5:
         print(A%B)
-
-calculator()
 #Calculator() makes it start the process.

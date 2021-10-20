@@ -1,7 +1,7 @@
 import math
 def Pith():
-    print('1. H^2 + L^2 = S^2')
-    print('2. S^2 - L^2 = H^2')
+    print('1. Hyptonuse Length')
+    print('2. Side Length')
 
     A = float(input('Select option 1 or 2:'))
 
@@ -14,5 +14,3 @@ def Pith():
         S = float(input('Give Slant Hight:'))
         L = float(input('Give Lenght:'))
         print(math.sqrt(S*S-L*L),'=H')
-        print()
-Pith()
