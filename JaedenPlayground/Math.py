@@ -1,11 +1,12 @@
-#from math import e, tan
-from PithagoreanTheorem import Pith
+92221#from math import e, tan
+from PythagoreanTheorem import Pith
 from SourcedBasic import calculator
 
 
 def Choice():
-    print('Or Type 1 For a Basic Calculator')
-    print('Type 2 to Calculate for Pithagoras')
+    print()
+    print('Type 1 For a Basic Calculator')
+    print('Type 2 to Calculate for Pythagoras')
     #print('And 3 If you want to Calculate for Tan')
     
     A = float(input(''))
@@ -25,6 +26,7 @@ def Choice():
             #
         #elif C == 3:
     
+    print()
     print('To Continue with MORE Math! 1')
     print('Alternitively, 2')
 
