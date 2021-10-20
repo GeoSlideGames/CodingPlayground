@@ -1,7 +1,7 @@
 
 from PithagoreanTheorem import Pith
 from SourcedBasic import calculator
-
+import os
 
 def Choice():
     print('Or Type 1 For a Basic Calculator')
