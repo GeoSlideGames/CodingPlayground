@@ -4,16 +4,16 @@ from SourcedBasic import calculator
 
 
 def Choice():
-    print('Type 1 to Calculate for Pithagoras')
-    print('Or Type 2 For a Basic Calculator')
+    print('Or Type 1 For a Basic Calculator')
+    print('Type 2 to Calculate for Pithagoras')
     #print('And 3 If you want to Calculate for Tan')
     
     A = float(input(''))
 
-    if A == 1:
+    if A == 2:
         Pith()
 
-    elif A == 2:
+    elif A == 1:
         calculator()
 
     #elif A == 3:
