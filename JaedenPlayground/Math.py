@@ -1,14 +1,14 @@
-#from math import e, tan
+
 from PithagoreanTheorem import Pith
 from SourcedBasic import calculator
-
+import os
 
 def Choice():
     print()
     print('Type 1 For a Basic Calculator')
     print('Type 2 to Calculate for Pithagoras')
     #print('And 3 If you want to Calculate for Tan')
-    
+    #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
     A = float(input(''))
 
     if A == 2:
@@ -23,12 +23,13 @@ def Choice():
         #if C == 1:
             #
         #elif C == 2:
+
             #
         #elif C == 3:
     
     print('To Continue with MORE Math! 1')
     print('Alternitively, 2')
-
+#TODO: I sugest you use better names for variables because it is hard to under stand what is happening
     B = float(input(''))
 
     if B == 1:

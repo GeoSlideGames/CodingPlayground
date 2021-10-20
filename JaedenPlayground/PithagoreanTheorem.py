@@ -1,18 +1,32 @@
+#TODO:add os package to clear the console after each major option
 import math
+
+
 def Pith():
-    print('1. Hyptonuse Length')
-    print('2. Side Length')
-
-    A = float(input('Select option 1 or 2:'))
-
+    print('1. Calculate for Hyptonuse Length')
+    print('2. Calculate for Side Length')
+    #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
+    A = float(input(''))
+    #TODO: clear here
+    
     if A == 1:
-        H = float(input('Give Hight:'))
-        L = float(input('Give Lenght:'))
+        print('Give Hight')
+        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
+        H = float(input(''))
+        print('Give Lenght')
+        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
+        L = float(input(''))
+
+        #TODO: reprint hight and length
         print(math.sqrt(H*H+L*L),'=S')
-        print()
+
     elif A == 2:
-        S = float(input('Give Slant Hight:'))
-        L = float(input('Give Lenght:'))
+        print('Give Slant Hight')
+        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
+        S = float(input(''))
+        print('Give Lenght')
+        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
+        L = float(input(''))
 
         print(math.sqrt(S*S-L*L),'=H')
-        print(math.sqrt(S*S-L*L),'=H')
+
