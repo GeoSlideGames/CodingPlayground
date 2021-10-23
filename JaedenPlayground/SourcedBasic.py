@@ -1,5 +1,7 @@
 #TODO:add os package to clear the console after each major option
 def calculator():
+    #TODO make a function to check if a variable is a string or a number
+    # then use it to check if the user inputs anything but a number and tell them to give a nummber  
     print('Input a Number')
     #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
     A = float(input(''))
