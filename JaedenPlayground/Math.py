@@ -1,4 +1,4 @@
-
+#find a way to add multiple anenswer to the if's
 from PithagoreanTheorem import Pith
 from SourcedBasic import calculator
 import os
