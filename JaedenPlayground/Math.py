@@ -1,4 +1,6 @@
-#find a way to add multiple anenswer to the if's
+#TODO: find a way to add multiple anenswer to the if's
+#TODO: make a function to check if a variable is a string or a number
+# then use it to check if the user inputs anything but a number and tell them to give a nummber 
 from PithagoreanTheorem import Pith
 from SourcedBasic import calculator
 import os
@@ -8,14 +10,14 @@ def Choice():
     print('Type 1 For a Basic Calculator')
     print('Type 2 to Calculate for Pithagoras')
     #print('And 3 If you want to Calculate for Tan')
-    #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-    A = float(input(''))
+    
+    TypeOFQuestion = float(input(''))
 
-    if A == 2:
-        Pith()
-
-    elif A == 1:
+    if TypeOFQuestion == 1:
         calculator()
+
+    elif TypeOFQuestion == 2:
+        Pith()
 
     #elif A == 3:
         #C = float(input('Solve for angle:1, Opp:2 or Adj:3 '))
@@ -26,16 +28,17 @@ def Choice():
 
             #
         #elif C == 3:
-    
+    print() #empty space to seprate
     print('To Continue with MORE Math! 1')
     print('Alternitively, 2')
-#TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-    B = float(input(''))
+    
+    ContinuationChoice = float(input(''))
 
-    if B == 1:
+    if ContinuationChoice == 1:
         Choice()
 
-    elif B == 2:
+    elif ContinuationChoice == 2:
+        print() #empty space to seprate
         print('Goodbye Then! :)')
 
 Choice()
