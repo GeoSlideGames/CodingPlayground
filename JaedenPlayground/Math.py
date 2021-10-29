@@ -40,5 +40,4 @@ def Choice():
     elif ContinuationChoice == 2:
         print() #empty space to seprate
         print('Goodbye Then! :)')
-
 Choice()
