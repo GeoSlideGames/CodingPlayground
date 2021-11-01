@@ -12,7 +12,7 @@ def Choice():
     #print('And 3 If you want to Calculate for Tan')
     
     TypeOFQuestion = float(input(''))
-
+    
     if TypeOFQuestion == 1:
         calculator()
 
