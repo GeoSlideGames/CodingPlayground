@@ -3,7 +3,9 @@
 # then use it to check if the user inputs anything but a number and tell them to give a nummber 
 from PithagoreanTheorem import Pith
 from SourcedBasic import calculator
-import os
+from clearConsole import clearConsole
+
+
 
 def Choice():
     print()
@@ -12,13 +14,14 @@ def Choice():
     #print('And 3 If you want to Calculate for Tan')
     
     TypeOFQuestion = float(input(''))
+    
 
     if TypeOFQuestion == 1:
         calculator()
 
     elif TypeOFQuestion == 2:
         Pith()
-
+    
     #elif A == 3:
         #C = float(input('Solve for angle:1, Opp:2 or Adj:3 '))
         
