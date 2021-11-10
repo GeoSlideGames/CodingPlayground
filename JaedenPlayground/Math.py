@@ -2,7 +2,7 @@
 #TODO: make a function to check if a variable is a string or a number
 # then use it to check if the user inputs anything but a number and tell them to give a nummber 
 from PithagoreanTheorem import Pith
-from SourcedBasic import calculator
+from Basic import calculator
 from clearConsole import clearConsole
 
 
@@ -35,6 +35,7 @@ def Choice():
     print('To Continue with MORE Math! 1')
     print('Alternitively, 2')
     
+
     ContinuationChoice = float(input(''))
 
     if ContinuationChoice == 1:

@@ -1,3 +1,4 @@
+
 def Pythagore():
     print('1. H^2 + L^2 = S^2')
     print('2. S^2 - L^2 = H^2')
