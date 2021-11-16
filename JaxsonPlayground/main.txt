@@ -1,9 +1,0 @@
-I want you make it so i can do diffrent type of questions.
-i want you to add pythagreans therom
-BUT IN DIFRENT FILES
-so normal operators in one file, pythagreans therom, and another fiule for runing
-
-i want to be able to chose diffrent types of questions after i do one
-
-and as a BIG chalenge i want you to do stuff with trigonometre
-

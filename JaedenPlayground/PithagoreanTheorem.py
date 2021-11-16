@@ -1,32 +1,50 @@
 #TODO:add os package to clear the console after each major option
 import math
+from clearConsole import clearConsole
+#TODO make a function to check if a variable is a string or a number
+# then use it to check if the user inputs anything but a number and tell them to give a nummber 
+
+
 
 
 def Pith():
-    print('1. Calculate for Hyptonuse Length')
+    print #empty space to seprate
+    print('1. Calculate for Slant Length')
     print('2. Calculate for Side Length')
-    #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-    A = float(input(''))
-    #TODO: clear here
+    hypotonuseOrSide = float(input(''))
     
-    if A == 1:
+    clearConsole()
+    print('Pithagreoas')                     
+    if hypotonuseOrSide == 1:
+        print #empty space to seprate
         print('Give Hight')
-        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-        H = float(input(''))
+        hight = float(input(''))
+        clearConsole()
+        print('Pithagreoas')
+        print(hight, '²') #empty space to seprate
         print('Give Lenght')
-        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-        L = float(input(''))
+        length = float(input(''))
+        
+        clearConsole()
+        print('Pithagreoas')
+        print(hight,"²",' + ',length,"²")
+        
+        hightExponent = hight ** 2
+        lengthExponent = length ** 2
+        clearConsole()
+        print('Pithagreoas')
+        print(hight,'²',' + ','²',length,)
+        print("the slant's length is ", math.sqrt(hightExponent + lengthExponent))
 
-        #TODO: reprint hight and length
-        print(math.sqrt(H*H+L*L),'=S')
-
-    elif A == 2:
+    elif hypotonuseOrSide == 2:
+        print() #empty space to seprate
         print('Give Slant Hight')
-        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-        S = float(input(''))
+        slant = float(input(''))
+        print() #empty space to seprate
         print('Give Lenght')
-        #TODO: I sugest you use better names for variables because it is hard to under stand what is happening
-        L = float(input(''))
+        side = float(input(''))
 
-        print(math.sqrt(S*S-L*L),'=H')
-
+        slantExponent = slant ** 2
+        sideExponent = side ** 2
+        print() #empty space to seprate
+        print("the side's length is ",math.sqrt(slantExponent - sideExponent))
