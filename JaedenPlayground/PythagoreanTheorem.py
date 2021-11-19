@@ -1,21 +1,64 @@
+#TODO:add os package to clear the console after each major option
 import math
-def Pith():
-    print('1. Calculate for Hypotenuse Length')
-    print('2. Calculate for Side Length')
-    A = float(input(''))
+from clearConsole import clearConsole
+#TODO make a function to check if a variable is a string or a number
+# then use it to check if the user inputs anything but a number and tell them to give a nummber 
 
-    if A == 1:
-        print('Give Height')
-        H = float(input(''))
+
+
+
+def Pyth():
+    clearConsole()
+    print('Pythagorean Theorem')
+    print()
+    print('1. Calculate for the Slant')
+    print('2. Calculate for a Side')
+    SlantOrSide = float(input(''))
+
+    if  SlantOrSide == 1:
+        clearConsole()
+        print('Pythagorean Theorem')     
+        print()
+        print('Height² + Length² = Slant²')
+        print()
+        print('Give Hight')
+        height = float(input(''))
+        clearConsole()
+
+        print('Pythagorean Theorem')
+        print()
+        print(height,'² + Length² = Slant²')
+        print()
         print('Give Length')
-        L = float(input(''))
+        length = float(input(''))
+                
+        clearConsole()
+        heightExponent = height ** 2
+        lengthExponent = length ** 2
+        print('Pythagorean Theorem')
+        print()
+        print(height,'² + ',length,'² = ',math.sqrt(heightExponent + lengthExponent),'²')
 
-        print(math.sqrt(H*H+L*L),'=S')
+    elif SlantOrSide == 2:
+        clearConsole()
+        print('Pythagorean Theorem')     
+        print()
+        print('Slant² - Length² = Height²')
+        print()
+        print('Give Slant')
+        slant = float(input(''))
 
-    elif A == 2:
-        print('Give Slant Height')
-        S = float(input(''))
+        clearConsole()
+        print('Pythagorean Theorem')
+        print()
+        print(slant,'² - Length² = Height²')
+        print()
         print('Give Length')
-        L = float(input(''))
-
-        print(math.sqrt(S*S-L*L),'=H')
+        length = float(input(''))
+        
+        clearConsole()
+        slantExponent = slant ** 2
+        lengthExponent = length ** 2
+        print('Pythagorean Theorem')
+        print()
+        print(slant,'² - ',length,'² = ',math.sqrt(slantExponent - lengthExponent),'²')
