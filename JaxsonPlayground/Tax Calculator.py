@@ -7,13 +7,13 @@ SalaryAfter = Salary
 IEtax = Salary * 0.0158
 if IEtax > 952.74:
     IEtax = 952.74
-print("IEtax =", IEtax)
+print("IEtax (AEtax) =", IEtax)
 
 #CPP tax amount
 CPPtax = Salary * 0.057
 if CPPtax > 3499.8:
     CPPtax = 3499.8
-print("CPPtax =", CPPtax)
+print("CPPtax (RCPtax) =", CPPtax)
 
 #Federal tax amount
 
