@@ -31,7 +31,7 @@ def Choice():
         #elif C == 3:
     print() #empty space to seprate
     print('To Continue with MORE Math! 1')
-    print('Alternitively, 2')
+    print('Alternitively, to End Calculations, 2')
     
 
     ContinuationChoice = float(input(''))
