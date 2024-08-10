@@ -1,11 +1,13 @@
-Achived:
-    Make a calculator with different kinds of questions.
-        Each opperation must be in DIFRENT FILES
-        Add normal opperations
-        Add Pythagoreans theorem (S^2=H^2+L^2)
-        (normal operators in one file, Pythagoreans theorem in another, and one file for running them both)
+Achieved:
+    Add normal/basic calculator operations
+    Add Pythagoreans theorem (S^2=H^2+L^2)
+    Each operation must be in DIFFERENT FILES (normal operators in one file, Pythagoreans theorem in another, and one file for running them both)
 
-        I want to be able to chose another type of questions after I have completed a calculation
+    I want to be able to choose another type of question after I have completed a calculation
 
 Must Complete:
+    If side is larger than slant in pythagorean theorem, send error
+    If an empty or letter input is given, send error (syntax error, try again)
+    Merge remainder function into division function
+
     As a BIG challenge i want you to add trigonometry without using their direct functions.

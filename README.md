@@ -1,3 +1,3 @@
 # CodingWJaeden
 
-Hello this is our coding playground
+Hello, this is our coding playground!

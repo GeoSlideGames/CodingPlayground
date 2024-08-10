@@ -1,8 +1,8 @@
 #TODO:add os package to clear the console after each major option
 import math
-from clearConsole import clearConsole
+from ClearConsole import clearConsole
 #TODO make a function to check if a variable is a string or a number
-# then use it to check if the user inputs anything but a number and tell them to give a nummber 
+# then use it to check if the user inputs anything but a number and tell them to give a number 
 
 
 

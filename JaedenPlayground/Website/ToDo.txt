@@ -1,0 +1,9 @@
+Achieved:
+
+
+Must Complete:
+    Make a top horizontal bar with a title and a page directory (using buttons).
+    Make a page for file storage, and a way for visitors to upload files/assets to the page.
+    Make a way to view common file types for image, video and audio.
+    Implement a sign-in to protect files.
+    Find out how to store the files outside of the website's code (stream it?)
