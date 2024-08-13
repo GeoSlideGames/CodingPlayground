@@ -1,12 +1,15 @@
+body{
+    background-color:rgb(14, 14, 14);
+    -webkit-text-fill-color: white;}
 h1 {
     text-align: center;}
 .container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0%);
     padding: 10px 0;}
 .marker {
     width: 200px;
     height: 25px;
-    margin: 10px auto;}
+    margin: 20px auto;}
 .cap {
     width: 60px;
     height: 25px;}
@@ -19,10 +22,14 @@ h1 {
     display: inline-block;}
 .red {
     background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);}
+    box-shadow: 0 0 20px 0 rgba(119, 20, 20, 0.856);}
 .green {
     background: linear-gradient(#55680D, #71F53E, #116C31);
-    box-shadow: 0 0 20px 0 #3B7E20CC;}
+    box-shadow: 0 0 20px 0 #3b7e20de;}
 .blue {
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-    box-shadow: 0 0 20px 0 blue;}
+    box-shadow: 0 0 20px 0 rgba(0, 68, 255, 0.726);}
+
+button {
+    background-color: black;
+    border: 2px solid rgb(66, 66, 66)}
